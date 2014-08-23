@@ -51,7 +51,7 @@ The following lists the mapping of the column names found in the features.txt an
 
 ORIGINAL_NAME		        NEWNAME
 
-subjectid                     subject_id
+subjectid    =   	                 subject_id
 
 activity                      activity_description
 
@@ -61,8 +61,8 @@ tBodyAcc-mean()-Y             Yaxis_mean_tBodyAcc
 
 tBodyAcc-mean()-Z             Zaxis_mean_tBodyAcc
 
-tGravityAcc-mean()-X		Xaxis_mean_tGravityAcc
-tGravityAcc-mean()-Y		Yaxis_mean_tGravityAcc
+tGravityAcc-mean()-X	=	Xaxis_mean_tGravityAcc
+tGravityAcc-mean()-Y	=	Yaxis_mean_tGravityAcc
 tGravityAcc-mean()-Z		Zaxis_mean_tGravityAcc
 tBodyAccJerk-mean()-X		Xaxis_mean_tBodyAccJerk
 tBodyAccJerk-mean()-Y		Yaxis_mean_tBodyAccJerk
