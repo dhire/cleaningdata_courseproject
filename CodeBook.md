@@ -47,9 +47,12 @@ Processing flow for the run_analysis.R scripts follows:
 27.	Remove any rownames and/or unneeded column
 28.	Write an output csv file from the final means data frame using the column names input from step 19
 
-The following lists the mapping of the column names found in the features.txt and variable names used in the tidy datasets created. 
-ORIGINAL_NAME		NEWNAME
+The following lists the mapping of the column names found in the features.txt and variable names used in the tidy datasets created.
+
+ORIGINAL_NAME		        NEWNAME
+
 subjectid			subject_id
+
 activity			activity_description
 tBodyAcc-mean()-X		Xaxis_mean_tBodyAcc
 tBodyAcc-mean()-Y		Yaxis_mean_tBodyAcc
