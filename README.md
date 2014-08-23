@@ -45,4 +45,4 @@ If the function is invoked with assigment, ie. meansdataframe <- tidy(). The mea
 a dataframe with of means for all columns labeled as either a mean or standard deviation. The summarization is for 
 subject and activity. 
 
-Invoking the tidy() function also outputs two CSV files. See CodeBook.md and comments in the run_analysis.R file for detail.
+Invoking the tidy() function also outputs two TXT files. See CodeBook.md and comments in the run_analysis.R file for detail.

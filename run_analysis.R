@@ -114,7 +114,7 @@ final <-rbind(test_final,train_final)
 colnamesfile <- read.csv(file="c:/coursera/UCI HAR Dataset/colnames.csv")
 tidycolnames <- colnamesfile[,2]
 
-write.table(final,"c:/coursera/UCI HAR Dataset/tidy.csv",col.names=tidycolnames,sep=",",dec=".",row.names=F)
+write.table(final,"c:/coursera/UCI HAR Dataset/tidy.txt",col.names=tidycolnames,sep=",",dec=".",row.names=F)
 
 ## create means of variables
 
@@ -137,7 +137,7 @@ final.means <-cbind(subjectid,activity,final.means)
 final.means <-subset(final.means,select = -rnames)
 row.names(final.means)<-NULL
 
-write.table(final.means,"c:/coursera/UCI HAR Dataset/tidymeans.csv",col.names=tidycolnames,sep=",",dec=".",row.names=F)
+write.table(final.means,"c:/coursera/UCI HAR Dataset/tidymeans.txt",col.names=tidycolnames,sep=",",dec=".",row.names=F)
 
 colnames(final.means) <- tidycolnames
 final.means <- final.means

@@ -37,7 +37,7 @@ Processing flow for the run_analysis.R scripts follows:
 17.	Column bind the accelermetry variables with the subject id and activity label data to create complete train dataset
 18.	Create final data frame with both test and train data
 19.	Read the colnames.csv file to create a vector of column names
-20.	Write an output csv file from the final data frame using the column names input from above step
+20.	Write an output txt file from the final data frame using the column names input from above step
 21.	The following steps create the summarized dataset
 22.	Split the final dataset on subject id and activity label
 23.	Calculate columns means on all accelerometry measures from split results
@@ -45,7 +45,7 @@ Processing flow for the run_analysis.R scripts follows:
 25.	Create the subject id and activity label from the factors combination created in split function
 26.	Combine the subject id and activity label and column means in a single data frame
 27.	Remove any rownames and/or unneeded column
-28.	Write an output csv file from the final means data frame using the column names input from step 19
+28.	Write an output txt file from the final means data frame using the column names input from step 19
 
 The following lists the mapping of the column names found in the features.txt and variable names used in the tidy datasets created.
 
