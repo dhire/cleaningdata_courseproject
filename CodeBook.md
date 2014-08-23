@@ -49,7 +49,7 @@ Processing flow for the run_analysis.R scripts follows:
 
 The following lists the mapping of the column names found in the features.txt and variable names used in the tidy datasets created.
 
-ORIGINAL_NAME		        NEWNAME
+ORIGINAL_NAME	=	        NEWNAME
 
 subjectid    =   	                 subject_id
 

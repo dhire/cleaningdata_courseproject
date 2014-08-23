@@ -1,5 +1,5 @@
 ## filename: run_analysis.R
-## date: August 24,2014
+## date: August 23,2014
 ## author: Don Hire
 
 
